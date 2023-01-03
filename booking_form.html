@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/booking_form.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <title>Make a Booking</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <!-- NAVIGATION BAR CODE -->
+            <nav class="nav-header">
+                <!-- navbar image -->
+                <a href="index.html">
+                    <img src="img/logo.png" class="nav-logo" alt="Website Logo" />
+                </a>
+
+                <!-- navbar links -->
+                <div class="all-nav-links">
+                    <a href="events.html" class="navlink"> EVENTS</a>
+                    <a href="booking.html" class="navlink"> BOOKING</a>
+                    <a href="enquiries_faq.html" class="navlink"> ENQUIRIES</a>
+                    <a href="blog_post.html" class="navlink"> BLOG</a>
+                    <a href="about.html" class="navlink"> ABOUT</a>
+                </div>
+
+                <!-- booking gif / link -->
+                <a href="booking.html" class="booking-link">
+                    <img class="booking-gif" src="img/book-now.gif" alt="book now button" />
+                </a>
+            </nav>
+            <!-- MAIN HEADER CODE -->
+            <div class="main-header">
+                <div class="heading">Booking a Time and Desk</div>
+                <div class="sub-heading">Let us know what time and desks you would like to reserve
+                </div>
+            </div>
+        </header>
+        <form action="booking_confirmation.html">
+            <!-- BOOKING FORM CODE -->
+            <div class="booking-form-container">
+                <div class="booking-form-content">
+                    <div class="booking-form-title __form-main-centered">Fill out the form below to book a reservation
+                        with us!
+                    </div>
+                    <label class="booking-form-group-size-question __form-main-centered" for="group-size-input">How many
+                        are in your group?
+                    </label>
+                    <select class="booking-form-group-size-input __form-main-centered __form-box-input"
+                        id="group-size-input" name="group-size" required>
+                        <option value="">Please choose an option</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                    <label class="booking-form-date-question __form-main-centered" for="date-input">What day would you
+                        like to
+                        play at our
+                        gaming lounge?
+                        (DD/MM/YYYY)</label>
+                    <input class="booking-form-date-input __form-main-centered __form-box-input" type="date"
+                        id="date-input" name="date" value="2022-03-01" min="2022-03-01" max="2022-09-01" required />
+                    <div class="booking-form-playing-hours-section">
+                        <label class="booking-form-start-time-question __form-main-centered" for="time-input">What time
+                            do you
+                            want to
+                            start playing at?</label>
+                        <label class="booking-form-play-time-question __form-main-centered" for="play-time-input">How
+                            many hours
+                            will you be
+                            playing for?</label>
+                        <input class="booking-form-start-time-input __form-main-centered __form-box-input" type="time"
+                            id="time-input" name="time" min="10:00" max="23:00" required />
+                        <select class="booking-form-play-time-input __form-main-centered __form-box-input"
+                            id="play-time-input" name="play-time" required>
+                            <option value="">Please choose an option</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+                    <label class="booking-form-desk-type-question __form-main-centered">What kind of desk or
+                        room would
+                        you like?</label>
+                    <div class="booking-form-desk-type-input">
+                        <input type="radio" id="desk-type-input-1" name="desk-type" value="any" required>
+                        <label for="desk-type-input-1" class="booking-form-desk-type-radio-label">Any Desk</label>
+                        <input type="radio" id="desk-type-input-2" name="desk-type" value="group" required>
+                        <label for="desk-type-input-2" class="booking-form-desk-type-radio-label">Group Desk</label>
+                        <input type="radio" id="desk-type-input-3" name="desk-type" value="single" required>
+                        <label for="desk-type-input-3" class="booking-form-desk-type-radio-label">Single Room</label>
+                        <input type="radio" id="desk-type-input-4" name="desk-type" value="double" required>
+                        <label for="desk-type-input-4"
+                            class="booking-form-desk-type-radio-label __booking-form-desk-type-radio-last-label">Doubled
+                            Room</label>
+                        <div class="booking-form-desk-type-input-spacing"></div>
+                        <a class="booking-form-next-button __form-main-centered btn"
+                            href="booking_form.html#contact-details-anchor">Next</a>
+                    </div>
+                    <!-- ABSOLUTE POSITION CURRENT PRICE CODE -->
+                    <div class="booking-form-current-price-container __form-main-centered">
+                        <div class="booking-form-current-price-title">Current Price:</div>
+                        <div class="booking-form-current-price-amount">£40</div>
+                        <div class="booking-form-current-price-footnote">Based on player number, hours, and desk
+                            type</div>
+                    </div>
+                </div>
+                <div class="booking-form-side-component">
+                    <img src="img/booking-form-side-component-img.jpg"
+                        srcset="img/booking-form-side-component-img-640w.jpg 640w, img/booking-form-side-component-img-768w.jpg 768w, img/booking-form-side-component-img-1024w.jpg 1024w, img/booking-form-side-component-img-1366w.jpg 1366w, img/booking-form-side-component-img-1600w.jpg 1600w, img/booking-form-side-component-img-1920w.jpg 1920w"
+                        class="booking-form-side-component-image" />
+                    <div class="booking-form-side-component-content">
+                        <div class="booking-form-side-opening-times-title __form-side-centered">Our Opening Times
+                        </div>
+                        <div class="booking-form-side-opening-times-content __form-side-centered">
+                            <p>3PM-10PM Weekdays</p>
+                            <p>10AM-10PM Weekends</p>
+                        </div>
+                        <div class="booking-form-side-desk-availability-title __form-side-centered">Desks & Rooms
+                            Availability</div>
+                        <div class="booking-form-side-desk-availability-content __form-side-centered">
+                            <p>Up to 50 desks available per hour</p>
+                            <p>Max size of grouped desks at 5 players</p>
+                            <p>5-player & 10-player rooms available</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CONTACT DETAILS CODE -->
+            <div class="contact-details-container">
+                <div class="contact-details-content" id="contact-details-anchor">
+                    <div class="contact-details-title __form-main-centered">Please enter your contact details below
+                    </div>
+                    <label class="contact-details-name-question __form-main-centered" for="name-input">What is your
+                        name?
+                    </label>
+                    <input class="contact-details-name-input __form-main-centered __form-box-input" type="text"
+                        id="name-input" name="name" required />
+                    <div class="contact-details-user-info-section">
+                        <label class="contact-details-phone-question __form-main-centered" for="phone-input">Please
+                            enter
+                            your phone number:</label>
+                        <label class="contact-details-email-question __form-main-centered" for="email-input">Please
+                            enter
+                            your email address:</label>
+                        <input class="contact-details-phone-input __form-main-centered __form-box-input" type="tel"
+                            id="phone-input" name="phone" required />
+                        <input class="contact-details-email-input __form-main-centered __form-box-input" type="email"
+                            id="email-input" name="email" required />
+                    </div>
+                    <label class="contact-details-requests-question __form-main-centered">Any special requests you want
+                        us to accommodate for?</label>
+                    <div class="contact-details-requests-input __form-main-centered">
+                        <textarea class="contact-details-requests-text-input __form-main-centered __form-box-input"
+                            id="requests-input" name="requests" rows="6" cols="75"
+                            placeholder="Describe what you want to do during your stay and let us know how we can help! (For example, splitting your group between PCs and consoles)"></textarea>
+                        <div class="contact-details-input-spacing"></div>
+                        <input class="contact-details-submit-button btn" type="submit" value="CONFIRM BOOKING"></input>
+                    </div>
+                </div>
+                <div class="contact-details-side-component">
+                    <div class="contact-details-side-component-map">
+                        <iframe class="contact-details-side-component-map-iframe" loading="lazy" allowfullscreen
+                            src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJl_on0neFdUgRRh4fggJamO8&key=AIzaSyAhqYj_a8u9aR6wsAEUnzt04ceRiH60L1A"></iframe>
+                    </div>
+                    <div class="contact-details-side-component-bottom-container">
+                        <img src="img/contact-details-form-img.jpg"
+                            srcset="img/contact-details-form-img-640w.jpg 640w, img/contact-details-form-img-768w.jpg 768w, img/contact-details-form-img-1024w.jpg 1024w, img/contact-details-form-img-1366w.jpg 1366w, img/contact-details-form-img-1600w.jpg 1600w, img/contact-details-form-img-1920w.jpg 1920w"
+                            class="contact-details-side-component-image" />
+                        <div class="contact-details-side-component-bottom-content">
+                            <div class="contact-details-side-findus-info-title __form-side-centered">Find us at:
+                            </div>
+                            <div class="contact-details-side-findus-info-content __form-side-centered">
+                                <p>60-61 London Rd,</p>
+                                <p>Brighton, BN1 4JE</p>
+                                <p>0208 372 2389</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <!-- BOOKING PLAN FOOTER COMPONENT / GALLERY CODE -->
+        <div class="gallery">
+            <div class="row-container">
+                <div class="column">
+                    <img class="img" src="img/img-1.jpg" alt="follow us" />
+                    <div class="centered">FOLLOW US</div>
+                </div>
+                <div class="column">
+                    <img class="img" src="img/img2.jpg" alt="private bookings" />
+                    <div class="centered">PRIVATE BOOKINGS & PARTY HIRE</div>
+                </div>
+                <div class="column">
+                    <img class="img" src="img/img-3.jpg" alt="virtual reality" />
+                    <div class="centered">PLAYSTATION VR AND VIRTUAL REALITY</div>
+                </div>
+            </div>
+        </div>
+        <!-- END OF BODY COMPONENT CODE -->
+        <div class="end-of-body-component">
+            <img class="end-of-body-component-image __end-of-body-overlay"
+                srcset="img/booking_eobc_bg_img-640w.jpg 640w, img/booking_eobc_bg_img-768w.jpg 768w, img/booking_eobc_bg_img-1024w.jpg 1024w, img/booking_eobc_bg_img-1366w.jpg 1366w, img/booking_eobc_bg_img-1600w.jpg 1600w, img/booking_eobc_bg_img-1920w.jpg 1920w"
+                sizes="100vw" src="img/booking_eobc_bg_img.jpg" alt="Playstation Controller" />
+            <div class="end-of-body-component-content __end-of-body-overlay">
+                <div class="end-of-body-title">Experience Better Gaming</div>
+                <div class="end-of-body-buttons">
+                    <a href="enquiries_faq.html" class="btn">Tell us about any enquiries</a>
+                    <a href="events.html" class="btn">See our latest events</a>
+                    <a href="blog_post.html" class="btn">Discuss in our blogs</a>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER CODE -->
+        <footer class="footer">
+            <div class="footer-content grid grid--footer">
+                <div class="logo-col">
+                    <a href="index.html" class="footer-logo">
+                        <img class="logo" alt=" logo" src="img/logo.png" />
+                    </a>
+                    <ul class="social-links">
+                        <li>
+                            <a class="footer-link" href="https://instagram.com">
+                                <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="https://facebook.com">
+                                <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="https://twitter.com">
+                                <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright">
+                        Copyright &copy; <span class="year">2027</span> by GAME, Inc. All
+                        rights reserved.
+                    </p>
+                </div>
+                <div class="address-col">
+                    <p class="footer-heading">Contact us</p>
+                    <address class="contacts">
+                        <p class="address">60-61 London Rd, Brighton, BN1 4JE</p>
+                        <p>
+                            <a class="footer-link" href="tel:02083722389">0208 372 2389</a><br />
+                            <a class="footer-link" href="mailto:hello@game.com">hello@game.com</a>
+                        </p>
+                    </address>
+                </div>
+                <div class="nav-col">
+                    <p class="footer-heading">Company</p>
+                    <ul class="footer-nav">
+                        <li><a class="footer-link" href="about.html">About Us</a></li>
+                        <li><a class="footer-link" href="enquiries_faq.html">Enquiries</a></li>
+                        <li><a class="footer-link" href="pp.html">Privacy & terms</a></li>
+                        <li><a class="footer-link" href="cp.html">Cookie Policy</a></li>
+                    </ul>
+                </div>
+                <div class="nav-col">
+                    <p class="footer-heading">Enquiries</p>
+                    <ul class="footer-nav">
+                        <li><a class="footer-link" href="enquiries_form.html">Contact Us</a></li>
+                        <li><a class="footer-link" href="enquiries_faq.html">Q&A</a></li>
+                        <li><a class="footer-link" href="blog_list.html">Blog</a></li>
+                        <li><a class="footer-link" href="events.html">Events</a></li>
+                    </ul>
+                </div>
+                <div class="nav-col">
+                    <p class="footer-heading">Booking</p>
+                    <ul class="footer-nav">
+                        <li><a class="footer-link" href="booking.html">For Groups </a></li>
+                        <li><a class="footer-link" href="booking.html">Deals & Pricing</a></li>
+                        <li><a class="footer-link" href="booking.html">Book Now</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

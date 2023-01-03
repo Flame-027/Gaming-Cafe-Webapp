@@ -1,0 +1,224 @@
+/* *****************
+      GENERAL
+*************** */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #fff;
+  overflow-x: hidden;
+  background-color: #010340;
+}
+
+.container {
+  max-width: 135rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+.gallery-container {
+  max-width: 180rem;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* *****************
+      NAV
+*************** */
+.nav-header {
+  position: relative;
+  background-color: #010233;
+  padding: 48px 0px;
+  padding-left: 20px;
+  width: auto;
+  height: 10px;
+}
+
+.all-nav-links {
+  position: relative;
+  bottom: 90px;
+  margin-top: 75px;
+  padding-left: 250px;
+  /* float: middle; */
+}
+
+.nav-logo {
+  width: 110px;
+  height: auto;
+  float: left;
+  position: absolute;
+  top: -11px;
+}
+
+/* .all-nav-links {
+  padding-left: 10px;
+} */
+
+.navlink {
+  color: #7eacfa;
+  text-decoration: none;
+  font-size: 26px;
+  padding-right: 100px;
+}
+
+.navlink:hover {
+  color: #ffc402;
+}
+
+.navlink:active {
+  color: #ffc402;
+  /* font-weight: bold; */
+  text-decoration: underline;
+}
+
+.booking-gif {
+  position: absolute;
+  right: 25px;
+  top: 15px;
+  height: 75px;
+  width: auto;
+}
+
+/* *****************
+      GALLERY
+*************** */
+.gallery {
+  padding: 25rem 0 0 0;
+}
+
+.row {
+  display: flex;
+}
+
+.img {
+  filter: grayscale(0.4);
+  background-color: #3b3b3b;
+  opacity: 0.5;
+  width: 100%;
+  height: auto;
+}
+
+.column {
+  flex: 33.33%;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  /* padding: 5px; */
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* *****************
+      FOOTER
+*************** */
+
+.footer {
+  padding: 12.8rem 0;
+  border-top: 1px solid black;
+  background-color: #010233;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+.grid:last-child {
+  margin-bottom: 0;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  height: 14rem;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 1.6rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #4a89f2;
+  margin-bottom: 5px;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #577dbc;
+  margin-top: auto;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+  margin-top: 3rem;
+  color: #4a89f2;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.address {
+  margin-bottom: 2.4rem;
+  color: #577dbc;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #577dbc;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #4a89f2;
+}

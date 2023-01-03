@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <title>Blog List</title>
+  </head>
+  <body>
+    <header>
+      <!-- NAVIGATION BAR CODE -->
+      <nav class="nav-header">
+        <!-- navbar image -->
+        <a href="#" 0>
+          <img src="img/logo.png" class="nav-logo" alt="Website Logo" />
+        </a>
+
+        <!-- navbar links -->
+        <div class="all-nav-links">
+          <a href="#" class="navlink"> EVENTS</a>
+          <a href="#" class="navlink"> BOOKING</a>
+          <a href="#" class="navlink"> ENQUIRIES</a>
+          <a href="#" class="navlink"> BLOG</a>
+          <a href="#" class="navlink"> ABOUT</a>
+        </div>
+
+        <!-- booking gif / link -->
+        <a href="#" class="booking-link">
+          <img
+            class="booking-gif"
+            src="img/book-now.gif"
+            alt="book now button"
+          />
+        </a>
+      </nav>
+    </header>
+    <section>
+      <div class="blog-list-title">
+        <h1 class="title-blog">Esports Blog</h1>
+      </div>
+    </section>
+    <section>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li
+            data-bs-target="carousel-item"
+            data-bs-slide-to="0"
+            class="active"
+          ></li>
+          <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+          <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item one-carousel active">
+            <div
+              class="overlay-image"
+              style="background-image: url(img/one.jpg)"
+            ></div>
+            <div class="container">
+              <a href="#" class="ex-headline"
+                >The State of Esports Tournaments in 2022</a
+              >
+            </div>
+          </div>
+          <div class="carousel-item two-carousel">
+            <div class="container">
+              <a href="#" class="ex-headline">
+                Why are athletes, celebrities and football clubs entering the
+                world of esports?
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item three-carousel">
+            <div class="container">
+              <a href="#" class="ex-headline">Example headline</a>
+            </div>
+          </div>
+        </div>
+        <a
+          href="#myCarousel"
+          class="carousel-control-prev"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <span class="sr-only"></span>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a
+          href="#myCarousel"
+          class="carousel-control-next"
+          role="button"
+          data-bs-slide="next"
+        >
+          <span class="sr-only"></span>
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="end-carousel">
+      <div class="latest-post">
+        <h2 class="what-is">What is Esports Blog</h2>
+        <p class="latest">
+          Esports Blog delivers expert insights on the key trends shaping the
+          esports industry. Discover exclusive white papers & the latest news
+          from esports leaders & top companies.
+        </p>
+      </div>
+    </section>
+
+    <section class="z">
+      <div class="blog-list">
+        <img src="img/fortnite.jpg" class="img-blog" />
+        <div class="content-blog">
+          <h4 class="blog-header f">MARCH 8, 2022</h4>
+          <a href="#" class="tit-blog f"
+            >Not Just for Players: Jobs in Esports</a
+          >
+          <p class="text-blog f">
+            As esports further establishes itself as an entertainment field that
+            is here to stay, it’s easy to predict more public recognition of
+            teams, players, and broadcasters. But as anyone already in the
+            industry knows, there are so many opportunities for people with
+            different skill sets, interests, and personality types that are
+            essential to the ecosystem of esports...
+          </p>
+          <a href="#" class="btn btn-lg btn-primary">Read more...</a>
+        </div>
+      </div>
+      <div class="blog-list">
+        <div class="content-blog">
+          <h4 class="blog-header f">NOVEMBER 25,2021</h4>
+          <a href="#" class="tit-blog f">How Can Esports Benefit from NFTs?</a>
+          <p class="text-blog f">
+            A non-fungible token, or NFT, is a cryptographic token that has only
+            one “original” copy that can not be replicated. They are coded to
+            have unique IDs and underlying metadata so that they can be
+            identified, verified...
+          </p>
+          <a href="#" class="btn btn-lg btn-primary">Read more...</a>
+        </div>
+        <img src="img/car.jpg" class="img-blog" />
+      </div>
+      <div class="blog-list">
+        <img
+          src="img/milad-fakurian-wNsHBf_bTBo-unsplash.jpg"
+          class="img-blog img-3"
+        />
+        <div class="content-blog">
+          <h4 class="blog-header f">SEPTEMBER 20, 2022</h4>
+          <a href="#" class="tit-blog f"
+            >How technology can further accelerate esports revenue growth?</a
+          >
+          <p class="text-blog f">
+            Top European broadcasters are set to make more than US$10 billion
+            revenue for live football matches from the top five European leagues
+            across the 2021/22 season ...
+          </p>
+          <a href="#" class="btn btn-lg btn-primary">Read more...</a>
+        </div>
+      </div>
+      <div class="blog-list">
+        <div class="content-blog">
+          <h4 class="blog-header f">NOVEMBER 25,2021</h4>
+          <a href="#" class="tit-blog f"
+            >Is the Future of Esports in the Metaverse?</a
+          >
+          <p class="text-blog f">
+            The term “metaverse” was first popularized in the 1992 novel Snow
+            Crash by Neal Stephenson. This concept of an interconnected virtual
+            world was further explored in the 2011 novel (and subsequent film),
+            Ready Player One.
+          </p>
+          <a href="#" class="btn btn-lg btn-primary">Read more...</a>
+        </div>
+        <img src="img/gamec.jpg" class="img-blog" />
+      </div>
+      <div class="blog-list">
+        <img src="img/tech.jpg" class="img-blog img-3" />
+        <div class="content-blog">
+          <h4 class="blog-header f">SEPTEMBER 20, 2022</h4>
+          <a href="#" class="tit-blog f">Sponsorship in esports </a>
+          <p class="text-blog f">
+            In 2017, when someone asked me which brands I saw going into esports
+            in the short and medium term, I would always answer the same: all of
+            them! All except funeral homes and luxury brands. I was 50% wrong,
+            as, so far...
+          </p>
+          <a href="#" class="btn btn-lg btn-primary">Read more...</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- END OF BODY COMPONENT CODE -->
+    <!-- <div class="end-b">
+      <div class="end-of-body-component">
+        <img
+          class="end-of-body-component-image __end-of-body-overlay"
+          srcset="
+            img/booking_eobc_bg_img-640w.jpg   640w,
+            img/booking_eobc_bg_img-768w.jpg   768w,
+            img/booking_eobc_bg_img-1024w.jpg 1024w,
+            img/booking_eobc_bg_img-1366w.jpg 1366w,
+            img/booking_eobc_bg_img-1600w.jpg 1600w,
+            img/booking_eobc_bg_img-1920w.jpg 1920w
+          "
+          sizes="100vw"
+          src="img/booking_eobc_bg_img.jpg"
+          alt="Playstation Controller"
+        />
+        
+        <div class="end-of-body-component-content __end-of-body-overlay">
+          <div class="end-of-body-title">Experience Better Gaming</div>
+          <div class="end-of-body-buttons">
+            <a href="enquiries_faq.html" class="btn"
+              >Tell us about any enquiries</a
+            >
+            <a href="events.html" class="btn">See our latest events</a>
+            <a href="blog_post.html" class="btn">Discuss in our blogs</a>
+          </div>
+        </div>
+      </div>
+    </div>-->
+    <!-- FOOTER CODE -->
+    <footer class="footer">
+      <div class="footer-content grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo" alt=" logo" src="img/logo.png" />
+          </a>
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#">
+                <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">
+                <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a class="footer-link" href="#">
+                <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright">
+            Copyright &copy; <span class="year">2027</span> by GAME, Inc. All
+            rights reserved.
+          </p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">183 London Bridge, London, SW567B</p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">415-201-6370</a
+              ><br />
+              <a class="footer-link" href="mailto:hello@game.com"
+                >hello@game.com</a
+              >
+            </p>
+          </address>
+        </div>
+        <div class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About Us</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+            <li><a class="footer-link" href="#">Cookie Policy</a></li>
+          </ul>
+        </div>
+        <div class="nav-col">
+          <p class="footer-heading">Enquiries</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Contact Us</a></li>
+            <li><a class="footer-link" href="#">Q&A</a></li>
+            <li><a class="footer-link" href="#">Blog</a></li>
+            <li><a class="footer-link" href="#">Events</a></li>
+          </ul>
+        </div>
+        <div class="nav-col">
+          <p class="footer-heading">Booking</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">For Groups </a></li>
+            <li><a class="footer-link" href="#">Deals & Pricing</a></li>
+            <li><a class="footer-link" href="#">Book Now</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

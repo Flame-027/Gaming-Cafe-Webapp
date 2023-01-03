@@ -1,0 +1,65 @@
+/* GLOBAL SETTINGS */
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Segoe UI;
+}
+
+/* husnain: Main Header */
+
+.main-header {
+}
+
+nav {
+  position: relative;
+  background-color: #010233;
+  padding: 48px 0px;
+  padding-left: 20px;
+  width: auto;
+  height: 10px;
+}
+
+.all-nav-links {
+  position: relative;
+  bottom: 90px;
+  margin-top: 75px;
+  padding-left: 250px;
+  /* float: middle; */
+}
+
+.nav-logo {
+  width: 120px;
+  height: auto;
+  float: left;
+  position: absolute;
+  top: -11px;
+}
+
+/* .all-nav-links {
+  padding-left: 10px;
+} */
+
+.navlink {
+  color: #7eacfa;
+  text-decoration: none;
+  font-size: 26px;
+  padding-right: 100px;
+}
+
+.navlink:hover {
+  color: #ffc402;
+}
+
+.navlink:active {
+  color: #ffc402;
+  /* font-weight: bold; */
+  text-decoration: underline;
+}
+
+.booking-gif {
+  position: absolute;
+  right: 25px;
+  top: 15px;
+  height: 75px;
+  width: auto;

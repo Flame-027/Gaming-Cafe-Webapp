@@ -1,1 +1,1 @@
-<img src="logo.png" width="32"> <h1> My Gaming Cafe Webapp / Website </h1>
+ <h1> <img src="logo.png" width="64"> My Gaming Cafe Webapp / Website </h1>

@@ -7,6 +7,10 @@
 This Webapp / Website was made in Q1 2022 and was my first big project using HTML & CSS, the repository has been migrate from another account and therefore does not contain the original hundreds of commits instead just the up to date project.
 </br>
 </br>
+<h2> Technologies used </h2>
+Frot-end: HTML5, CSS </br> Back-end: C#, .NET, ASP.NET, MVC, Entity Framework, REST API, SQL Server  </br> Design and workflow : Trello and Mockplus
+</br>
+</br>
 <h2> About the project </h2>
 During my first few weeks in a commerical software development environment I was finding it challenging to keep up, naturally two of my fellow junior developers agreed as it was our first time in the development world, so facing this challenge I proposed we set out to make our very first Webapp / Website from scratch in our free time to sharpen our skills and have something to put up on GitHub, after some convincing they agreed and our first project was born.
 </br>

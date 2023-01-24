@@ -14,6 +14,7 @@ Frot-end: HTML5, CSS </br> Back-end: C#, .NET, ASP.NET, MVC, Entity Framework, R
 <h2> About the project </h2>
 During my first few weeks in a commerical software development environment I was finding it challenging to keep up, naturally two of my fellow junior developers agreed as it was our first time in the development world, so facing this challenge I proposed we set out to make our very first Webapp / Website from scratch in our free time to sharpen our skills and have something to put up on GitHub, after some convincing they agreed and our first project was born.
 </br>
+</br>
 The project intends to emulate a gaming cafe / lounge business in London, we spend lots of time researching into London cafe's taking inspiration from their colour pallets and designs as the project had to have a flashy and modern front-end / website design attracting the main young demographic and keep up with competition, it also had to have a functional back-end with a database to allow the form inputs, booking system inputs and blog write ups to be collected, sorted and stored.
 </br>
 </br>

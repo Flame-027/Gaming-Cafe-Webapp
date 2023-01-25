@@ -25,18 +25,18 @@ Originally there was no intention for anyone to really be the lead on the projec
 </br>
 Constantly played and the strengths of me and my fellow team members and guided them to overcome some weaknesses, for example of my team members didn't quite get the hang of the code as quick as me and our other team member being a non-native English speaker but he constantly brang a positive attitude, was always beaming with idea's and loved hustling to find solutions for the project therefore as the lead of the project I recognised his strength and guided him to research, collected resources and brainstorm while me and our other team member worked on the code, I then also went through code with him till he understood and was able to contribute. </br>
 </br>
-<h2>Design:</h2>
+<h3>Design:</h3>
 After a rough colourless mockup of the project I kickstarted the design by our eye catching , colour changing and animated navigation bar. This was a crucial step as it was the first professional looking and fully done part of the site. The navigation bar also set a unique theme and design while also ironing out our colour pallete setting the tone for the rest of the project.
 </br>
 </br>
-<h2>Pages:</h2>
+<h3>Pages:</h3>
 Each team member had there own UI Elements and pages to work on with the help / polish from others if need be. Some of the things I created include : The navigation bar, booking pages, enquiry page, cookie policy page , privacy policy page ...
 </br>
 </br>
-<h2>Backend:</h2>
+<h3>Backend:</h3>
 As the developer on the team who is really passionate about and has strong C# , .NET and OOP skills I wrote a huge portion of the backend
 
 </br>
 </br>
-<h1> Special thanks to</h1>
+<h2> Special thanks to</h2>
 Harry and Alex for coming along with me on this bumpy ride, without you guys the project would be missing lots of great idea's , I would to code it all solo and most of all it would'nt have been as much fun, so thank you !
